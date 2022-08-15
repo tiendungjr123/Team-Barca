@@ -4,7 +4,7 @@ export const Detail =[
     info: [
       {
         name:'Marc-André ter Stegen',
-        img:'../../assets/images/Barcelona/gk/jugador_fitxa-ter_stegen.webp',
+        img:'./assets/images/Barcelona/gk/jugador_fitxa-ter_stegen.webp',
         title:'A keeper with great reflexes and also excellent with the ball at his feet',
         about:'Marc-André ter Stegen signed for FC Barcelona in the summer of 2014 from Borussia Mönchengladbach. Born on 30 April 1992 in Mönchengladbach itself, the German did not take long to make his name as one Europe’s most promising young goalkeepers.',
         place:'Mönchengladbach, Germany',

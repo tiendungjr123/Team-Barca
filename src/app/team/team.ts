@@ -12,7 +12,7 @@ export const Teams = [
         matchesPlayed: 3,
         savedPenaltiest:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/gk/jugador_fitxa-ter_stegen.webp'
+        img:'./assets/images/Barcelona/gk/jugador_fitxa-ter_stegen.webp'
       },
       {
         id:2,
@@ -23,7 +23,7 @@ export const Teams = [
         matchesPlayed: 1,
         savedPenaltiest:0,
         minutesPlayed: 120,
-        img:'../../assets/images/Barcelona/gk/jugador_fitxa-ento.webp'
+        img:'./assets/images/Barcelona/gk/jugador_fitxa-ento.webp'
       },
       {
         id:3,
@@ -34,7 +34,7 @@ export const Teams = [
         matchesPlayed: 1,
         savedPenaltiest:0,
         minutesPlayed: 60,
-        img:'../../assets/images/Barcelona/gk/jugador_fitxa-inaki_pena.webp'
+        img:'./assets/images/Barcelona/gk/jugador_fitxa-inaki_pena.webp'
       },
     ]
   },
@@ -52,7 +52,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-dest.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-dest.webp'
       },
       {
         id:2,
@@ -63,7 +63,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-pique.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-pique.webp'
       },
       {
         id:3,
@@ -74,7 +74,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-araujo.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-araujo.webp'
       },
       {
         id:4,
@@ -85,7 +85,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-jordi_alba.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-jordi_alba.webp'
       },
       {
         id:5,
@@ -96,7 +96,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-umtiti.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-umtiti.webp'
       },
       {
         id:6,
@@ -107,7 +107,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-eric.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-eric.webp'
       },
       {
         id:7,
@@ -118,7 +118,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-christensen.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-christensen.webp'
       },
       {
         id:8,
@@ -129,7 +129,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/df/jugador_fitxa-kounde.webp'
+        img:'./assets/images/Barcelona/df/jugador_fitxa-kounde.webp'
       },
 
     ]
@@ -147,7 +147,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-sergio.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-sergio.webp'
       },
       {
         id:2,
@@ -158,7 +158,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-riqui.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-riqui.webp'
       },
       {
         id:3,
@@ -169,7 +169,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-pedri.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-pedri.webp'
       },
       {
         id:4,
@@ -180,7 +180,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-nico.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-nico.webp'
       },
       {
         id:5,
@@ -191,7 +191,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-s_roberto.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-s_roberto.webp'
       },
       {
         id:6,
@@ -202,7 +202,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-frenkie.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-frenkie.webp'
       },
       {
         id:7,
@@ -213,7 +213,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-kessie.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-kessie.webp'
       },
       {
         id:8,
@@ -224,7 +224,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-pjanic.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-pjanic.webp'
       },
       {
         id:9,
@@ -235,7 +235,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/mf/jugador_fitxa-collado.webp'
+        img:'./assets/images/Barcelona/mf/jugador_fitxa-collado.webp'
       },
     ]
   },
@@ -252,7 +252,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-dembele.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-dembele.webp'
       },
       {
         id:2,
@@ -263,7 +263,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-memphis.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-memphis.webp'
       },
       {
         id:3,
@@ -274,7 +274,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-ansu.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-ansu.webp'
       },
       {
         id:4,
@@ -285,7 +285,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-brraithwaite.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-brraithwaite.webp'
       },
       {
         id:5,
@@ -296,7 +296,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-ferran.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-ferran.webp'
       },
       {
         id:6,
@@ -307,7 +307,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-auba.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-auba.webp'
       },
       {
         id:7,
@@ -318,7 +318,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-raphinha.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-raphinha.webp'
       },
       {
         id:8,
@@ -329,7 +329,7 @@ export const Teams = [
         matchesPlayed: 3,
         assists:1,
         minutesPlayed:175,
-        img:'../../assets/images/Barcelona/fw/jugador_fitxa-lewan.webp'
+        img:'./assets/images/Barcelona/fw/jugador_fitxa-lewan.webp'
       },
 
     ]
