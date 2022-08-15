@@ -1,0 +1,258 @@
+.theme {
+  background-image: url(../../images/stripes-content-promo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-stats{
+  padding: 5rem 4rem 4rem;
+  background: #f8f8f8;
+  text-align: center;
+  z-index: 10;
+}
+
+.player-desc {
+  background: linear-gradient(90deg, #cd122d, #154284);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.5rem;
+  font-weight: 1000;
+}
+
+
+.player-strip__label {
+  margin-bottom: 0.4rem;
+  color: #154284;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+.player-strip__data {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.card-stats {
+  position: relative;
+  padding-left: 0;
+  padding-right: 1.6rem;
+}
+
+.card-stats__lable {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #727272;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+.card-stats__value {
+  display: inline-block;
+  background: linear-gradient(90deg, #cd122d 20%, #154284);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  font-size: 4.5rem;
+  line-height: 1;
+  margin-top: 0.3rem;
+  text-shadow: 0 0.2rem 0.4rem rgb(0 0 0 / 20%);
+  font-weight: 1000;
+  font-family: fcb-extra-bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.stats-card__stat-container {
+  display: flex;
+  padding-top: 0.8rem;
+}
+
+.stats-card__stat:first-child {
+  padding-left: 0;
+}
+
+.stats-card__stat {
+  position: relative;
+  padding: 0 1.6rem;
+}
+
+.stats-card__stat-label {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #727272;
+  text-transform: uppercase;
+  font-weight: 1000;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 1000;
+}
+
+.stats-card__value {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  color: #585555;
+}
+
+.stats-card__stat:first-child:after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: 0;
+  width: 0.1rem;
+  height: 2.5rem;
+  background: rgba(0, 0, 0, .1);
+}
+
+.card-primary {
+  background: #181733;
+  -ms-grid-column: 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/3;
+  grid-column: 2/3;
+  padding-bottom: 1.4rem;
+}
+
+.stats-card__minutes {
+  display: flex;
+  padding-bottom: 0.5rem;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  font-family:  Arial, Helvetica Neue, Helvetica, sans-serif;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .15);
+}
+
+.stats-card__minutes-icon{
+  display: inline-block;
+  margin-right: 0.6rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #fff;
+}
+
+.stats-card__minutes-value{
+  display: inline-block;
+  margin-right: 0.4rem;
+  line-height: 2.5rem;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: 1000;
+}
+
+.stats-card__wheels{
+  padding-top: 1.4rem;
+}
+.stats-card__wheels-season{
+  font-size: 0.8rem;
+  line-height: 1rem;
+  text-transform: uppercase;
+  font-weight: 1000;
+  color: hsla(0,0%,100%,.6);
+  text-align: center;
+  font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.stats-card__wheels-container{
+  padding-top: 1.4rem;
+  display: flex;
+  justify-content: space-around;
+}
+.wheel-chart{
+  text-align: center;
+}
+.wheel-chart__title{
+  margin-bottom: 0.6rem;
+  font-size: 1.3rem;
+  color: #fff;
+  font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: 400;
+}
+.wheel-chart__wheel{
+  width: 8.8rem;
+  height: 8.8rem;
+  border-radius: 50%;
+  position: relative
+
+}
+.wheel-chart__svg{
+  width: 5.8rem;
+  height: 5.8rem;
+  border-radius: 50%;
+  transform: rotate(-90deg);
+}
+.wheel-chart__bg{
+  stroke: hsla(0,0%,100%,.25);
+  stroke-width: 7;
+}
+.wheel-chart__filling{
+  stroke: #fdc52c;
+  stroke-width: 7;
+}
+
+.wheel-chart__inside{
+  position: absolute;
+  display: flex;
+  top: 0;
+  width: 100%;
+  height: 6.8rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+
+}
+.wheel-chart__value{
+  display: inline-block;
+  margin-top: -1rem;
+  color: #fff;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: 1000;
+}
+
+
+@media (max-width: 960px) {
+  .info-detail{
+    display: block !important;
+  }
+  .title{
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+
+.gird{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+  gap: 10px;
+}
+
+.card-primary{
+  background: #181733;
+  grid-row: 1/3;
+  grid-column: 2/3;
+}
+
+@media (max-width: 960px) {
+  .gird{
+    display: flex;
+  }
+  .stats-card__wheels-container{
+    display: block;
+  }
+  .wheel-chart__wheel{
+    width: auto;
+  }
+  .info-detail__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .player-strip__label{
+    margin-bottom: 0;
+  }
+}
+

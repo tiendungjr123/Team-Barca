@@ -1,0 +1,26 @@
+.title {
+  background: linear-gradient(90deg, #cd122d, #154284);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 0 8rem;
+}
+
+.font-size-1_2 {
+  font-size: 1.2rem;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.opacity-6 {
+  opacity: .6;
+}
+
+.color {
+  color: #fdc52c ;
+  -webkit-text-fill-color:unset;
+}

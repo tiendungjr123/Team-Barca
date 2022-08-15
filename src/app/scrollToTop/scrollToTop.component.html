@@ -1,0 +1,15 @@
+<div
+  class="scroll-to-top"
+  (click)="(scrollToTop)"
+  [ngClass]=" windowScrolled === true ? 'show-scrollTop' : ''"
+>
+  <button
+    type="button"
+    class="btn active"
+    data-toggle="button"
+    aria-pressed="true"
+    (click)="scrollToTop()"
+  >
+    <i class="icon fas fa-chevron-up"></i>
+  </button>
+</div>

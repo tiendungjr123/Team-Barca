@@ -1,0 +1,42 @@
+/* margin and padding */
+.ml-2 {
+  margin-left: 20px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.mt-40 {
+  margin-top: 40px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-60 {
+  margin-top: 60px;
+}
+
+.pr-5{
+  padding-right: 5rem;
+}
+
+/* width and height */
+
+.w-80{
+  width: 80%;
+}
+
+.w-40{
+  width: 40%;
+}
+
+
+.fw-1000{
+  font-weight: 1000;
+}
+.fw-400{
+  font-weight: 400;
+}
+.border{
+  border-top: 0.1rem solid #efefef;
+  border-bottom: 0.1rem solid #efefef;
+}

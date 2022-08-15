@@ -1,0 +1,24 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  opacity: 0;
+  background: linear-gradient(90deg, #cd122d, #154284);
+  transition: all .2s ease-in-out;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.scroll-to-top:hover{
+  transform: translateY(-3px);
+}
+
+.show-scrollTop {
+  z-index: 1000;
+  opacity: 1;
+  transition: all .2s ease-in-out;
+}
+
+.icon{
+  font-size: 20px;
+}
