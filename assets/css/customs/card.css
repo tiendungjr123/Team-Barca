@@ -1,0 +1,103 @@
+/* card.css */
+.card {
+  margin: 1rem;
+  border-radius: 1.6rem 1.6rem 0 0;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+
+.card-title {
+  font-weight: 1000;
+  color: #222;
+  font-size: 1.875rem;
+  padding-right: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .card-title{
+    font-size: 1rem;
+  }
+}
+
+/* team.css */
+.card-hover {
+  position: relative;
+  width: 100%;
+  height: 335px;
+  color: white;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  perspective: 800px;
+  border-radius: 5px;
+}
+
+.card-hover:hover {
+  transform: rotateY(0.5turn);
+}
+
+.card-face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transition: 1s ease-in-out;
+}
+
+.card-face__back {
+  transform: rotateY(0.5turn);
+  background: rgb(18, 31, 56);
+  width: 100%;
+  height: 100%;
+}
+
+.card-info {
+  position: absolute;
+  background: #000;
+  top: 77%;
+  opacity: 0.8;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2.2rem;
+  width: 100%;
+}
+
+
+/* player detail css */
+.card-border {
+  border-radius: 0;
+  box-shadow: 0 .2rem .6rem 0 rgba(0, 0, 0, .12);
+}
+
+
+.card_icon {
+  display: inline-block;
+  margin-right: 1rem;
+  width: 1rem;
+  height: 1rem;
+  fill: #727272;
+}
+
+.icon {
+  margin-right: 0;
+  fill: #727272;
+  vertical-align: middle;
+}
+
+.card-content {
+  padding-top: 1rem;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
