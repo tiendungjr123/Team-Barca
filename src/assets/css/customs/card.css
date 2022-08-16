@@ -56,7 +56,7 @@
 .card-info {
   position: absolute;
   background: #000;
-  top: 77%;
+  bottom: -35px;
   opacity: 0.8;
   text-align: center;
   color: #fff;

@@ -22,11 +22,6 @@
   text-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 50%);
 }
 
-@media (max-width: 768px) {
-  .baner-heading{
-    font-size: 2rem;
-  }
-}
 
 
 
@@ -114,10 +109,88 @@ svg {
   opacity: 0.8;
 }
 
+.bt-10{
+  position: absolute;
+  bottom:10%;
+}
 .text {
   line-height: 1.1;
   font-weight: 600;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.55);
   margin-bottom: 16px;
+}
+
+@media  (min-width: 1400px) {
+  .col-lg-4 .card{
+    margin-bottom:8rem !important;
+  }
+  .card-hover{
+    height: 384px ;
+  }
+}
+
+@media (min-width: 990px) and (max-width:1199px) {
+  .card-hover{
+    height: 264px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .col-lg-4 .card{
+    margin-bottom:5rem !important;
+  }
+  .card-hover{
+    height: 324px;
+  }
+}
+
+
+
+@media (min-width: 764px) and (max-width:989px){
+  .card-hover{
+    height: 304px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 763px){
+  .baner-heading{
+    font-size: 2rem;
+  }
+  .col-lg-4 .card{
+    margin-bottom:5rem !important;
+  }
+  .card-hover{
+    height: 470px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 576px) {
+
+  .col-lg-4 .card{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 6rem !important;
+  }
+  .position-title {
+    font-size: 2.5rem;
+  }
+  .card-hover{
+    height: 400px;
+  }
+}
+
+@media (max-width: 459px) {
+
+  .col-lg-4 .card{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 4rem !important;
+  }
+  .position-title {
+    font-size: 2.5rem;
+  }
+  .card-hover{
+    height: 292px;
+  }
 }
